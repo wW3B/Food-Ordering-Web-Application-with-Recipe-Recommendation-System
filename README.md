@@ -51,8 +51,8 @@ All user and product data are stored and retrieved from MySQL via database.js
 
 ---
 
-## 📄 PAGE DESCRIPTIONS
-# 🔐 login-register.ejs
+# 📄 PAGE DESCRIPTIONS
+## 🔐 login-register.ejs
 
 Purpose:
 This page allows users to register or log in to the system.
@@ -71,7 +71,7 @@ Technologies Used:
 Node.js, HTML, CSS, JavaScript, Bootstrap, MySQL
 ---
 
-# 🛒 product.ejs
+## 🛒 product.ejs
 
 Purpose:
 This page allows users to browse food items, view prices, and place orders.
@@ -90,7 +90,7 @@ Technologies Used:
 Node.js, HTML, CSS, JavaScript, Bootstrap
 ---
 
-# 👤 home.ejs
+## 👤 home.ejs
 
 Purpose:
 This page displays personal information of the logged-in user.
@@ -107,13 +107,13 @@ Technologies Used:
 HTML, CSS, JavaScript, Bootstrap
 ---
 
-# 🗄️ DATABASE STRUCTURE (MYSQL)
+## 🗄️ DATABASE STRUCTURE (MYSQL)
 
 The application uses a relational database to manage users, products, and cart data.
 ---
 
-## 📦 TABLES OVERVIEW
-# 🛍️ carts
+# 📦 TABLES OVERVIEW
+## 🛍️ carts
 
 Stores food items that users add to their shopping cart.
 
@@ -123,7 +123,7 @@ Manage selected food items before checkout
 
 Track food items associated with user orders
 
-# 🍔 product
+## 🍔 product
 
 Stores information about food items available in the store.
 
@@ -137,7 +137,7 @@ product_image – Image path of the product
 
 product_status – Availability status of the product
 
-# 👥 users
+## 👥 users
 
 Stores customer account information.
 
@@ -152,7 +152,7 @@ users_phone – Customer phone number
 users_password – Encrypted user password
 ---
 
-# 📁 PROJECT STRUCTURE
+## 📁 PROJECT STRUCTURE
 /food-ordering-web-app
 │
 ├── index.js              # Entry point and routing
@@ -171,7 +171,7 @@ users_password – Encrypted user password
 └── package.json
 ---
 
-# 🛠️ TECHNOLOGIES USED
+## 🛠️ TECHNOLOGIES USED
 
 Backend: Node.js
 
@@ -182,7 +182,7 @@ Template Engine: EJS
 Database: MySQL
 ---
 
-# 🎯 KEY FEATURES
+## 🎯 KEY FEATURES
 
 User registration and login system
 
@@ -197,16 +197,16 @@ User profile management
 
 Dynamic content rendering using EJS
 
-## 📦 INSTALLATION & RUNNING THE PROJECT
-# 1️⃣ Clone the Repository
+# 📦 INSTALLATION & RUNNING THE PROJECT
+## 1️⃣ Clone the Repository
 git clone https://github.com/wW3B/Food-Ordering-Web-Application-with-Recipe-Recommendation-System.git
 ---
 
-# 2️⃣ Install Dependencies
+## 2️⃣ Install Dependencies
 npm install
 ---
 
-# 3️⃣ Set Up Database
+## 3️⃣ Set Up Database
 
 Create a MySQL database
 
@@ -215,15 +215,15 @@ Create tables: users, product, carts
 Update database configuration in database.js
 ---
 
-# 4️⃣ Run the Application
+## 4️⃣ Run the Application
 node server.js
 ---
 
-# 5️⃣ Open in Browser
+## 5️⃣ Open in Browser
 http://localhost:3000
 ---
 
-## 🎓 KEY LEARNING OUTCOMES
+# 🎓 KEY LEARNING OUTCOMES
 
 Understanding full-stack web application architecture
 
@@ -238,7 +238,7 @@ Practicing CRUD operations with relational databases
 Improving UI/UX with Bootstrap
 ---
 
-## 🚀 FUTURE IMPROVEMENTS
+# 🚀 FUTURE IMPROVEMENTS
 
 Add real payment gateway integration
 
