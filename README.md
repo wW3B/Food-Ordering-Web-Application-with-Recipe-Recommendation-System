@@ -42,7 +42,7 @@ Built using **Node.js**, **EJS**, and **MySQL**, focusing on full-stack web deve
 ```text
 Login/Register → Home → Product → Database (MySQL)
 ```
-##📦 Installation
+## 📦 Installation
 git clone https://github.com/wW3B/Food-Ordering-Web-Application-with-Recipe-Recommendation-System.git
 npm install
 node server.js
@@ -63,3 +63,4 @@ User authentication and database integration
 Server-side rendering with EJS
 
 CRUD operations using MySQL
+
