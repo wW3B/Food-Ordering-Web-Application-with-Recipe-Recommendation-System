@@ -31,6 +31,7 @@ server.js
 home.ejs ⇄ product.ejs
    ↓
 database.js (MySQL)
+```
 
 ## 📌 Flow Description
 
@@ -47,6 +48,8 @@ View their personal profile information
 Browse food items and place orders
 
 All user and product data are stored and retrieved from MySQL via database.js
+
+---
 
 ## 📄 PAGE DESCRIPTIONS
 # 🔐 login-register.ejs
@@ -66,6 +69,7 @@ Connection to MySQL database for storing and validating user data
 
 Technologies Used:
 Node.js, HTML, CSS, JavaScript, Bootstrap, MySQL
+---
 
 # 🛒 product.ejs
 
@@ -84,6 +88,7 @@ User-friendly and responsive UI
 
 Technologies Used:
 Node.js, HTML, CSS, JavaScript, Bootstrap
+---
 
 # 👤 home.ejs
 
@@ -100,10 +105,12 @@ Clean and simple layout for profile information
 
 Technologies Used:
 HTML, CSS, JavaScript, Bootstrap
+---
 
 # 🗄️ DATABASE STRUCTURE (MYSQL)
 
 The application uses a relational database to manage users, products, and cart data.
+---
 
 ## 📦 TABLES OVERVIEW
 # 🛍️ carts
@@ -143,6 +150,7 @@ users_email – Customer email
 users_phone – Customer phone number
 
 users_password – Encrypted user password
+---
 
 # 📁 PROJECT STRUCTURE
 /food-ordering-web-app
@@ -161,6 +169,7 @@ users_password – Encrypted user password
 │   └── images
 │
 └── package.json
+---
 
 # 🛠️ TECHNOLOGIES USED
 
@@ -171,6 +180,7 @@ Frontend: HTML, CSS, JavaScript, Bootstrap
 Template Engine: EJS
 
 Database: MySQL
+---
 
 # 🎯 KEY FEATURES
 
@@ -183,15 +193,18 @@ Food browsing and ordering system
 Ingredient-based food and recipe logic
 
 User profile management
+---
 
 Dynamic content rendering using EJS
 
 ## 📦 INSTALLATION & RUNNING THE PROJECT
 # 1️⃣ Clone the Repository
 git clone https://github.com/wW3B/Food-Ordering-Web-Application-with-Recipe-Recommendation-System.git
+---
 
 # 2️⃣ Install Dependencies
 npm install
+---
 
 # 3️⃣ Set Up Database
 
@@ -200,12 +213,15 @@ Create a MySQL database
 Create tables: users, product, carts
 
 Update database configuration in database.js
+---
 
 # 4️⃣ Run the Application
 node server.js
+---
 
 # 5️⃣ Open in Browser
 http://localhost:3000
+---
 
 ## 🎓 KEY LEARNING OUTCOMES
 
@@ -220,6 +236,7 @@ Connecting frontend, backend, and database layers
 Practicing CRUD operations with relational databases
 
 Improving UI/UX with Bootstrap
+---
 
 ## 🚀 FUTURE IMPROVEMENTS
 
@@ -232,3 +249,4 @@ Enhance recipe recommendation logic
 Add admin dashboard for product management
 
 Improve UI/UX design
+---
