@@ -45,14 +45,20 @@ Login/Register → Home → Product → Database (MySQL)
 ## 📦 Installation
 ```text
 - git clone https://github.com/wW3B/Food-Ordering-Web-Application-with-Recipe-Recommendation-System.git
+```
+```text
 - npm install
+```
+```text
 - node server.js
 ```
 
 ---
 
 ## Open in browser : 
+```text
 http://localhost:3000
+```
 
 ---
 
@@ -65,5 +71,6 @@ User authentication and database integration
 Server-side rendering with EJS
 
 CRUD operations using MySQL
+
 
 
